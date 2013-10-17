@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen (min-device-width: 1025px) {
+    /* desktop */
+body {
+	margin-right: 20%;
+	margin-left: 20%;
+	background: black url(assets/LFF_bg4.jpg) no-repeat top left;
+}
+
+header {
+	opacity: 0.8;
+	width: 80%;
+}
+.text-container {
+	margin-top: 2em;
+	text-align: center;
+	height: auto;
+	width: 80%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+table {
+	margin: 0px auto;
+	border: medium double #000;
+	background-color: rgba(255, 153, 0, 0.7);
+}
+
+h1 {
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1.2em;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.custom-footer {
+	margin-top: 1em;
+	text-align: center;
+	height: auto;
+	width: 80%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+
+.media-table {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+	body {
+	background: black url(assets/LFF_bg4.jpg) no-repeat top left;
+
+}
+
+
+header {
+	opacity: 0.8;
+}
+.text-container {
+	margin-top: 1em;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+}
+
+table {
+	margin: 0px auto;
+	border: medium double #000;
+	background-color: rgba(255, 153, 0, 0.7);
+}
+h1 {
+	font-size: 1.3em;
+}
+p {
+	font-size: 1em;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.custom-footer {
+	margin-top: 1em;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+}
+
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+
+.media-table {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	/* Tablets */
+	
+body {
+	margin-right: 20%;
+	margin-left: 20%;
+	background: black url(assets/LFF_bg4.jpg) no-repeat top left;
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+}
+header {
+	opacity: 0.8;
+}
+.text-container {
+	margin-top: 2em;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+table {
+	margin: 0px auto;
+	border: medium double #000;
+	background-color: rgba(255, 153, 0, 0.7);
+}
+
+h1 {
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1.2em;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.custom-footer {
+	margin-top: 1em;
+	text-align: center;
+	height: auto;
+	width: 100%;
+	background-color: #f44c0c;
+	opacity: 0.8;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+
+.media-table {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000;
+	vertical-align: top;
+}
+}
