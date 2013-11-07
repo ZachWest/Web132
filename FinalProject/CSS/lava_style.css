@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,
+html {
+	text-align: center;
+    margin:0;
+    padding:0;
+    background-color: #BF8B30;
+	height: 100%;
+	font-family: Arial, Helvetica, Times New Roman;
+	font-size: 12px;
+    }
+	
+h1 {
+	1.5em;
+}
+
+h2 {
+	1.2em;
+}
+
+h4 {
+	1em;
+}
+p {
+	font-family: Arial;
+	font-size: 1em;
+	margin: auto 10% auto 10%;
+	text-align: center;
+	line-height: 100%;
+}
+
+table {
+	width: auto;
+	margin: 0px auto;
+}
+
+
+
+#wrapper { 
+	margin: 0 auto;
+	width: 68.58%;
+}
+
+/* Top banner(Header) */
+#banner {
+    display: block;
+	text-align: center;
+	margin: 0px auto 0px auto;
+    vertical-align: top-center;
+    width: 61.7%;
+    height: auto;
+	position: relative;
+	z-index: 12;
+	opacity: 0.85;
+}
+
+/* 1458 full size */
+
+/*Facebook and Youtube Buttons unused 
+#facebook {
+	position: fixed;
+    width: 45px;
+    height: 45px;
+	top: 0px;
+	margin-left: 450px;
+	left: 50%;
+	z-index: 15;
+}
+
+#youtube {
+	position: absolute;
+    width: 45px;
+    height: 45px;
+	top: 47px;
+	margin-left: 450px;
+	left: 50%;
+	z-index: 14;
+}
+*/
+
+/* Decoration div box currently under development
+#box {
+	background: #FF6700;
+	position: absolute;
+	width: 61.7%;
+	height: auto;
+	top: 83px;
+	margin-left: -20.85%;
+	left: 134px;
+	z-index: 2;
+	opacity: 0.9;
+ }
+*/
+
+/* Main content area */
+#content { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 2% auto 2% auto;
+	padding: 0px;
+	height: auto;
+	width: 61.7%;
+	position: relative;
+	z-index: 30;
+	opacity: 0.75;
+}
+
+#photos {
+	height: auto;
+	width: 61.7%;
+}
+	
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}	
+	
+/* Footer */
+#footer { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 2% auto 2% auto;
+	width: 61.7%;
+	position: relative;
+	z-index: 10;
+	opacity: 0.9;
+}
+
+#media-table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	vertical-align: top;
+}
+@media only screen and (max-width: 767px) {
+	/* Phones */
+body,
+html {
+	text-align: center;
+    margin:0;
+    padding:0;
+    background-color: #BF8B30;
+	height: 100%;
+	font-family: Arial, Helvetica, Times New Roman;
+	font-size: 12px;
+    }
+	
+h1 {
+	1.5em;
+}
+
+h2 {
+	1.2em;
+}
+
+h4 {
+	1em;
+}
+p {
+	font-family: Arial;
+	font-size: 1em;
+	margin: auto 3%% auto 3%;
+	text-align: center;
+	line-height: 100%;
+}
+
+
+#wrapper { 
+	margin: 0 auto;
+	width: 68.58%;
+}
+
+/* Top banner(Header) */
+#banner {
+    display: block;
+	float: left;
+	text-align: center;
+	margin: 0 auto;
+    vertical-align: top-center;
+    width: 100%;
+    height: auto;
+	position: relative;
+	z-index: 12;
+	opacity: 0.85;
+}
+
+#photos {
+	height: auto;
+	width: 80%;
+}
+	
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}	
+
+.media-table {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	vertical-align: top;
+}
+
+
+/* Decoration div box currently under development
+#box {
+	background: #FF6700;
+	position: absolute;
+	width: 95%;
+	height: auto;
+	top: 0px;
+	margin-left: -20.85%;
+	left: 40%;
+	z-index: 2;
+	opacity: 0.9;
+ }
+*/
+
+/* Main content area */
+#content { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 0 auto;
+	padding: 0px;
+	height: auto;
+	width: 90%;
+	position: relative;
+	z-index: 30;
+	opacity: 0.75;
+}
+
+/* Footer */
+#footer { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 90%;
+	position: relative;
+	z-index: 10;
+	opacity: 0.75;
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	/* Tablets */
+	body,
+html {
+	text-align: center;
+    margin:0;
+    padding:0;
+    background-color: #BF8B30;
+	height: 100%;
+	font-family: Arial, Helvetica, Times New Roman;
+	font-size: 12px;
+    }
+	
+h1 {
+	1.5em;
+}
+
+h2 {
+	1.2em;
+}
+
+h4 {
+	1em;
+}
+p {
+	font-family: Arial;
+	font-size: 1em;
+	margin: auto 10% auto 10%;
+	text-align: center;
+	line-height: 100%;
+}
+
+
+
+#wrapper { 
+	margin: 0 auto;
+	width: 68.58%;
+}
+
+/* Top banner(Header) */
+#banner {
+    display: block;
+	text-align: center;
+	margin: 0px auto 0px auto;
+    vertical-align: top-center;
+    width: 85%;
+    height: auto;
+	position: relative;
+	z-index: 12;
+	opacity: 0.85;
+}
+
+/* Decoration div box currently under development
+#box {
+	background: #FF6700;
+	position: absolute;
+	width: 90%;
+	height: auto;
+	top: 0px;
+	margin-left: -20.85%;
+	left: 40%;
+	z-index: 2;
+	opacity: 0.9;
+ }
+ */
+
+/* Main content area */
+#content { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 2% auto 2% auto;
+	padding: 0px;
+	height: auto;
+	width: 85%;
+	position: relative;
+	z-index: 30;
+	opacity: 0.75;
+}
+
+#photos {
+	height: auto;
+	width: 80%;
+}
+	
+.info-form {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}	
+
+/* Footer */
+#footer { 
+	text-align: center;
+	color: black;
+	background: #FFCC73;
+	margin: 0px auto 0px auto;
+	margin-top: 20px;
+	height: auto;
+	width: 85%;
+	position: relative;
+	z-index: 10;
+	opacity: 0.9;
+}
+}
